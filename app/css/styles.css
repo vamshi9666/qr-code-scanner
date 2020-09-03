@@ -59,6 +59,8 @@ body {
 
 .app__layout-content {
   height: inherit;
+  padding: 32px;
+  background-color: white;
   /*margin-top: 56px;*/
 }
 
@@ -112,13 +114,12 @@ body {
 }
 
 video {
-  transform: translateX(-50%) translateY(-50%);
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 90vw;
+  height: 90vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   position: absolute;
 }
 
@@ -351,16 +352,6 @@ video {
   border: 0;
 }
 
-.app__help-text,
-.app__select-photos {
-  color: #fff;
-  position: absolute;
-  bottom: -70px;
-  font-size: 18px;
-  right: 0;
-  text-align: center;
-  user-select: none;
-}
 
 .app__help-text {
   display: none;
@@ -392,7 +383,7 @@ video {
   bottom: 20px;
   right: 20px;
   border-radius: 50%;
-  background-color: #3F51B5;
+  background-color: #e63946;
   background-image: url("/images/photo-camera.svg");
   background-repeat: no-repeat;
   background-size: 26px;
